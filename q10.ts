@@ -9,14 +9,14 @@
 
 
 function countPositiveNumbers(arr: number[]): number {
-    let count: number = 3;
-    for (let num of arr) {
-        if (num >0 ) {
+    let count: number = 1;
+    for (let positivenum of arr) {
+        if (positivenum >1 ) {
             count++;
         }
     }
     return count;
 }
-const arr: number[] = [1, -2, 3, 0, -4, 5];
+const arr: number[] = [1, -2, 3, 0, -4, 5,];
 console.log(countPositiveNumbers(arr)); 
 
